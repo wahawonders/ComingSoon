@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tourism Planner</title>
+</head>
+<body>
+    <div id="locations-container" class="draggable-container">
+        <div class="draggable-item" data-duration="3">Location A</div>
+        <div class="draggable-item" data-duration="2">Location B</div>
+        <div class="draggable-item" data-duration="4">Location C</div>
+        <!-- Add more locations as needed -->
+    </div>
+
+    <div id="calendar" class="calendar-container">
+        <!-- Days of the week -->
+        <div class="day-header">Monday</div>
+        <div class="day-header">Tuesday</div>
+        <div class="day-header">Wednesday</div>
+        <div class="day-header">Thursday</div>
+        <div class="day-header">Friday</div>
+        <div class="day-header">Saturday</div>
+        <div class="day-header">Sunday</div>
+
+        <!-- Calendar slots for each day -->
+        <div class="droppable-container" data-day="1"></div>
+        <div class="droppable-container" data-day="2"></div>
+        <div class="droppable-container" data-day="3"></div>
+        <div class="droppable-container" data-day="4"></div>
+        <div class="droppable-container" data-day="5"></div>
+        <div class="droppable-container" data-day="6"></div>
+        <div class="droppable-container" data-day="7"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
