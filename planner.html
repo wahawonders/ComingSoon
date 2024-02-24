@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tourism Planner</title>
+</head>
+<body>
+    <div id="filter-container">
+        <label for="category-filter">Filter by Category:</label>
+        <select id="category-filter">
+            <option value="all">All</option>
+            <option value="Historical">Historical</option>
+            <option value="Beach">Beach</option>
+            <option value="Adventure">Adventure</option>
+        </select>
+    </div>
+
+    <div id="locations-container" class="draggable-container">
+        <div class="draggable-item" data-duration="2" data-category="Historical">Location A</div>
+        <div class="draggable-item" data-duration="4" data-category="Beach">Location B</div>
+        <div class="draggable-item" data-duration="8" data-category="Adventure">Location C</div>
+        <!-- Add more locations as needed -->
+    </div>
+
+    <div id="calendar-container">
+        <label for="calendar-days">Number of Days:</label>
+        <input type="number" id="calendar-days" min="1" value="7" />
+        <div id="calendar" class="calendar-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

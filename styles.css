@@ -1,38 +1,71 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    background-color: #f4f4f4;
 }
 
-.draggable-container {
+.draggable-container,
+.calendar-container {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-.droppable-container {
-    border: 2px solid #ccc;
-    padding: 10px;
-    min-height: 100px;
-    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 20px; /* Increase the gap */
 }
 
 .draggable-item {
-    margin: 5px;
-    padding: 10px;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
+    width: 180px; /* Decrease the width */
+    height: 30px; /* Decrease the height */
+    padding: 5px; /* Decrease the padding */
+    margin: 10px; /* Increase the margin */
+    border-radius: 12px; /* Increase the border radius */
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Increase the box shadow */
+    overflow: hidden;
+    font-size: 12px; /* Decrease the font size */
+}
+
+.droppable-container {
+    min-height: 200px; /* Set the min-height to 200px */
+    width: 200px; /* Set the width to 200px */
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.total-duration {
+    position: absolute;
+    bottom: 10px; /* Increase the bottom margin */
+    left: 15px; /* Increase the left margin */
+    font-size: 12px; /* Decrease the font size */
+    color: #333;
+}
+
+#filter-container {
+    margin-bottom: 30px; /* Increase the margin bottom */
+}
+
+label {
+    margin-right: 15px; /* Increase the margin right */
+}
+
+#calendar-days {
+    width: 60px; /* Increase the width */
+    padding: 8px; /* Increase the padding */
+    border: 2px solid #ccc; /* Increase the border size */
+    border-radius: 6px; /* Increase the border radius */
+}
+
+/* Add hover effect for draggable items */
+.draggable-item:hover {
+    background-color: #e0e0e0;
     cursor: grab;
 }
 
-.calendar-container {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-}
-
-.day-header {
-    font-weight: bold;
+/* Add transition effect for smoother hover animation */
+.draggable-item, .droppable-container {
+    transition: background-color 0.3s ease-in-out;
 }
