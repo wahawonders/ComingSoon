@@ -1,36 +1,99 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/*    display: flex;*/
+    margin: 20px;
+    background-color: #f4f4f4;
+   /* overflow: hidden; /* Disable body scroll */
+}
+
+h2 {
+    display: block;
+	clear: both; /* Clear any floated elements */
+    margin-bottom: 10px; /* 10px gap below the heading */
+}
+#container-wrapper {
+    display: flex;
+    width: 100%; /* Adjust as needed */
+}
+table {
+  bor.der-collapse: collapse;
+  width: 100%;
+  height: 100%
+  
+}
+th, td {
+  text-align: left;
+  width: 33%
+}
+
+#locations-container {
+    display: block;
+	height: 60vh;
+	max-height: 60vh; /* Adjust the max-height to your preference */
+	/*max-height: 80vh; /* Adjust the max-height to your preference */
+    overflow-y: auto;
+    /*flex: 1; /* Let it take the remaining width */
+    background-color: #f9f9f9; /* Lighter background color */
+}
+
+#new-container {
+	
+	max-height: 10vh;
+	max-width: 20vh;
+    display: block;	
+	clear: both; /* Clear any floated elements */
+}
+
+#Hotel-container {
+	
+    display: block;
+	height: 60vh;
+	max-height: 60vh; /* Adjust the max-height to your preference */
+	/*max-height: 80vh; /* Adjust the max-height to your preference */
+    overflow-y: auto;
+    /*flex: 1; /* Let it take the remaining width */
+    background-color: #f9f9f9; /* Lighter background color */
+}
+
+#Regular-container {
+	
+    width: auto; /* Set the width to 50% */
+    max-width: auto; /* Set the maximum width to 50% */
+    max-height: 20vh; /* Adjust the max-height to your preference */
+    overflow-y: 20vh;
+    background-color: #f3f3f3; /* Lighter background color */
+    
+}
+
+
+#droppable-container-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
-    background-color: #f4f4f4;
+    overflow-y: auto; /* Enable vertical scrolling for the right half */
+    flex: 1; /* Let it take the remaining width */
 }
 
-.draggable-container,
-.calendar-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Increase the gap */
-}
-
-.draggable-item {
-    box-sizing: border-box;
-    width: 180px; /* Decrease the width */
-    height: 30px; /* Decrease the height */
-    padding: 5px; /* Decrease the padding */
-    margin: 10px; /* Increase the margin */
-    border-radius: 12px; /* Increase the border radius */
+#calendar-container {
     background-color: #fff;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Increase the box shadow */
-    overflow: hidden;
-    font-size: 12px; /* Decrease the font size */
+    padding: 2px;
+    /*z-index: 1;*/
+    overflow-y: auto; /* Enable scroll for the calendar-container */
+    max-height: 60vh; /* Adjust the max-height to your preference */
+}
+
+#calendar-days {
+    width: 60px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
 }
 
 .droppable-container {
-    min-height: 200px; /* Set the min-height to 200px */
-    width: 200px; /* Set the width to 200px */
+    min-height: 300px;
+    width: 400px;
     background-color: #e0e0e0;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -38,34 +101,94 @@ body {
 
 .total-duration {
     position: absolute;
-    bottom: 10px; /* Increase the bottom margin */
-    left: 15px; /* Increase the left margin */
-    font-size: 12px; /* Decrease the font size */
+    bottom: 10px;
+    left: 15px;
+    font-size: 12px;
     color: #333;
 }
 
-#filter-container {
-    margin-bottom: 30px; /* Increase the margin bottom */
+.draggable-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-label {
-    margin-right: 15px; /* Increase the margin right */
+.draggable-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-#calendar-days {
-    width: 60px; /* Increase the width */
-    padding: 8px; /* Increase the padding */
-    border: 2px solid #ccc; /* Increase the border size */
-    border-radius: 6px; /* Increase the border radius */
+.draggable-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-/* Add hover effect for draggable items */
+.draggable-item {
+    box-sizing: border-box;
+    width: 380px;
+    height: 40px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-size: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.newline-item {
+    box-sizing: border-box;
+    width: 280px;
+    height: 50px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-size: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Different colors for different containers */
+#Regular-container .draggable-item {
+    background-color: #ffd966; /* Light yellow */
+}
+
+#Hotel-container .draggable-item {
+    background-color: #add8e6; /* Light blue */
+}
+
+#locations-container .draggable-item {
+    background-color: #ffb6c1; /* Light pink */
+}
+
 .draggable-item:hover {
     background-color: #e0e0e0;
     cursor: grab;
+    transform: scale(1.05);
 }
 
-/* Add transition effect for smoother hover animation */
-.draggable-item, .droppable-container {
-    transition: background-color 0.3s ease-in-out;
+#filter-container {
+    /*margin-bottom: 10px;*/ /* Adjust the margin as needed */
+}
+
+.filter-group {
+    /*margin-bottom: 10px; */ /* Adjust the margin as needed */
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.label {
+    margin-right: 15px;
+}
+
+.filter-group label {
+   /* margin-right: 5px; */
 }
