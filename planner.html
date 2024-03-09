@@ -7,29 +7,183 @@
     <title>Tourism Planner</title>
 </head>
 <body>
-    <div id="filter-container">
-        <label for="category-filter">Filter by Category:</label>
+<Table>
+<tr>
+<td colspan="2">
+ <div id="filter-container">
+	<div class="filter-group">
+	 <h3>Filter by</h3>
+        <label for="category-filter">Category:</label>
         <select id="category-filter">
             <option value="all">All</option>
-            <option value="Historical">Historical</option>
-            <option value="Beach">Beach</option>
             <option value="Adventure">Adventure</option>
+			<option value="Beach">Beach</option>
+			<option value="Experience">Experience</option>
+			<option value="Extreme Adventure">Extreme Adventure</option>
+			<option value="Food & Drink">Food & Drink</option>
+			<option value="Historical">Historical</option>
+			<option value="Kids Only">Kids Only</option>
+			<option value="Lux & Leisure">Lux & Leisure</option>
+			<option value="Nightlife">Nightlife</option>
+			<option value="Relx">Relx</option>
+			<option value="Shopping">Shopping</option>
+			<option value="Special Event">Special Event</option>
         </select>
+		
+        <label for="city-filter">City:</label>
+        <select id="city-filter">
+            <option value="all">All</option>
+            <option value="Abu Dhabi">Abu Dhabi</option>
+            <option value="Dubai">Dubai</option>
+			<option value="Sharjah">Sharjah</option>
+			<option value="Ajman">Ajman</option>
+			<option value="Umm Al Quwain">Umm Al Quwain</option>
+			<option value="Ras Al Khaimah">Ras Al Khaimah</option>
+			<option value="Fujairah">Fujairah</option>
+        </select>
+		 <label for="choose-hotel-filter">Choose Hotel:</label>
+		<select id="choose-hotel-filter">
+			<option value="all">All</option>
+			<option value="Experience Stay">Experience Stay</option>
+			<option value="Standard Stay">Standard Stay</option>
+		</select>
+		</div>
+		</div>
     </div>
+</td>
 
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+<h2>Tourist Locations</h2>
+</td>
+<td>
+<h2>Choose Stay</h2>
+</td>
+<td>
+<h2>Planner</h2>
+</td>
+</tr>
+<tr>
+<td width:33%>
     <div id="locations-container" class="draggable-container">
-        <div class="draggable-item" data-duration="2" data-category="Historical">Location A</div>
-        <div class="draggable-item" data-duration="4" data-category="Beach">Location B</div>
-        <div class="draggable-item" data-duration="8" data-category="Adventure">Location C</div>
+	   
+        <div class="draggable-item" data-duration="2" data-category="Historical" data-city="Dubai"  data-cost="365">IMG Worlds Of Adventure - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Beach" data-city="Dubai" data-cost="295">Bollywood At Dubai Parks & Resorts - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Beach" data-city="Dubai" data-cost="295">Motiongate At Dubai Parks & Resorts - Dubai</div>
+        <div class="draggable-item" data-duration="8" data-category="Adventure" data-city="Dubai" data-cost="370">Atlantis Aquaventure Waterpark - Dubai</div>
+        <!-- Add more locations as needed -->
+        <div class="draggable-item" data-duration="3" data-category="Adventure" data-city="Dubai" data-cost="450">Ski Dubai(+Penguin Encounter) - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Adventure" data-city="Dubai" data-cost="370">Wild Wadi Waterpark(All You Can Eat) - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Kids Only" data-city="Dubai" data-cost="295">Legoland At Dubai Parks & Resorts- Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Adventure" data-city="Dubai" data-cost="165">Dubai Ice Rink - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="95">3D World Trick Art Museum - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="110">Garden Glow - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">Burj Khalifa - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="399">Burj Khalifa + Sky Deck(148) - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="179">Burj Khalifa + Sky Deck(125+124) - Dubai</div>
+        <div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">The Dubai Fountain - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="70">The Dubai Fountain + Boat ride - Dubai</div>
+        <div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="20">The Dubai Fountain + Fountain Boardwalk Step - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">The Dubai Mall- Shopping - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="300">Aura Skypool - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="900">Burj Al Arab - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="100">Miracle Garden - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="135">The Lost Chambers Aquarium - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Extreme Adventure" data-city="Dubai" data-cost="445">Atlantis Ultimate Snorkel Experience - The Lost Chambers Aquarium - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Extreme Adventure" data-city="Dubai" data-cost="1670">Dive Discovery Scuba Dive - The Lost Chambers Aquarium - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">Dubai Aquarium & Underwater Zoo - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">love lake - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">Dubai Frame - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">The View at The Palm - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">KITE BEACH - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">Sea Lion Point - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai" data-cost="0">Autodrome - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">Tram - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">Crocodile Park - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">Ferry Ride - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">illusion City - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">Zero Gravity - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">Inflight Indoor Skydiving - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">Gold Market - Dubai</div>
+		<div class="draggable-item" data-duration="3" data-category="Historical" data-city="Dubai">Big Bus tour - Dubai</div>
+		
+		
+		
+        <div class="draggable-item" data-duration="5" data-category="Beach" data-city="Al Ain">Location E - Al Ain</div>
+        <div class="draggable-item" data-duration="6" data-category="Adventure" data-city="Dubai">Location X - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Historical" data-city="Al Ain">Location Y - Al Ain</div>
+        <div class="draggable-item" data-duration="7" data-category="Beach" data-city="Dubai">Location Z - Dubai</div>
+        <div class="draggable-item" data-duration="3" data-category="Adventure" data-city="Al Ain">Location 1a - Al Ain</div>
+        <div class="draggable-item" data-duration="5" data-category="Historical" data-city="Dubai">Location 1b - Dubai</div>
+        <div class="draggable-item" data-duration="8" data-category="Beach" data-city="Al Ain">Location 1c - Al Ain</div>
+        <div class="draggable-item" data-duration="6" data-category="Adventure" data-city="Dubai">Location 1d - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Historical" data-city="Al Ain">Location 1e - Al Ain</div>
+        <div class="draggable-item" data-duration="7" data-category="Beach" data-city="Dubai">Location 1f - Dubai</div>
+        <div class="draggable-item" data-duration="3" data-category="Adventure" data-city="Al Ain">Location 1g - Al Ain</div>
+        <div class="draggable-item" data-duration="5" data-category="Historical" data-city="Dubai">Location 1h - Dubai</div>
         <!-- Add more locations as needed -->
     </div>
 
-    <div id="calendar-container">
+</td>
+<td width:33%>
+
+    <div id="Hotel-container" class="draggable-container1">
+        <div class="draggable-item" data-duration="2" data-category="Experience Stay" data-city="Dubai"  data-cost="1200">Bab Al Shams, A Rare Finds Desert Resort - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1000">Al Maha - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1200">Terra Solis - Dubai</div>
+        <div class="draggable-item" data-duration="8" data-category="Experience Stay" data-city="Dubai" data-cost="1500">Al Maha - Dubai</div>
+		<div class="draggable-item" data-duration="8" data-category="Standard Stay" data-city="Dubai" data-cost="300">iBis - Dubai</div>
+		<div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1000">Al Maha - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1200">Terra Solis - Dubai</div>
+        <div class="draggable-item" data-duration="8" data-category="Experience Stay" data-city="Sharjah" data-cost="1500">Al Maha - Dubai</div>
+		<div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Sharjah" data-cost="1000">Al Maha - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Abu Dhabi" data-cost="1200">Terra Solis - Dubai</div>
+        <div class="draggable-item" data-duration="8" data-category="Experience Stay" data-city="Dubai" data-cost="1500">Al Maha - Dubai</div>
+		<div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1000">Al Maha - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1200">Terra Solis - Dubai</div>
+        <div class="draggable-item" data-duration="8" data-category="Experience Stay" data-city="Dubai" data-cost="1500">Al Maha - Dubai</div>
+		<div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1000">Al Maha - Dubai</div>
+        <div class="draggable-item" data-duration="4" data-category="Experience Stay" data-city="Dubai" data-cost="1200">Terra Solis - Dubai</div>
+        <div class="draggable-item" data-duration="8" data-category="Experience Stay" data-city="Dubai" data-cost="1500">Al Maha - Dubai</div>
+		
+        <!-- Add more locations as needed -->
+    </div>
+
+</td>
+<td width:33%>
+<div id="calendar-container">
         <label for="calendar-days">Number of Days:</label>
         <input type="number" id="calendar-days" min="1" value="7" />
         <div id="calendar" class="calendar-container"></div>
+		 <button id="export-btn">Export to CSV</button>
     </div>
+</td>
+</tr>
+<tr>
+<td>
+		<h2>Regular Expences</h2>
+</td>
+<td colspan="2">    
+	<div id="Regular-container" class="draggable-container2">
 
-    <script src="script.js"></script>
+        <div class="draggable-item" data-duration="2" data-category="Regular" data-city="Dubai"  data-cost="1200">Food</div>
+        <div class="draggable-item" data-duration="4" data-category="Regular" data-city="Dubai" data-cost="1000">Car</div>
+        <div class="draggable-item" data-duration="4" data-category="Regular" data-city="Dubai" data-cost="1200">Driver</div>
+        <div class="draggable-item" data-duration="8" data-category="Regular" data-city="Dubai" data-cost="1500">Fuel</div>
+		<div class="draggable-item" data-duration="8" data-category="Regular" data-city="Dubai" data-cost="300">Extra Fuel</div>
+        <!-- Add more locations as needed -->
+    </div>
+</td>
+</tr>
+</Table>
+
+	
+ <script src="script.js"></script>	
+
+
 </body>
 </html>
