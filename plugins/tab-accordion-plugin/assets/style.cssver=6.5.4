@@ -1,0 +1,65 @@
+/* Add your styles here */
+
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tab {
+    /* flex: 1; */
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tab.active, .tab:hover {
+    color: #e9630c;
+}
+.tab-content {
+    display: none;
+    padding: 10px;
+    border: none;
+}
+
+.accordion-item {
+    border: none;
+    margin-top: 10px;
+}
+.accordion-header {
+  padding: 10px 0px;
+    border-bottom: 1px solid #1060d0;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    font-size: 19px;
+    position: relative;
+}
+.accordion-header:after {
+    content: '';
+    position: absolute;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    right: 10px;
+    top: 47%;
+}
+.accordion-header.header-active:after{
+      transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+.tabs .tab{
+border-bottom: none;
+    
+}
+}
