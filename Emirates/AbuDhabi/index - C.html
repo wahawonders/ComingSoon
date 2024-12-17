@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<title>UAE- Abu Dhabi</title>
+
+<!--whatapp script-->
+<style>
+    .whatsapp-fixed {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    .whatsapp-fixed a {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-color: #25D366;
+        border-radius: 50%;
+        box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .whatsapp-fixed a img {
+        width: 30px;
+        height: 30px;
+    }
+</style>
+<!--whatapp End Script-->
+
+<style>
+/* General Row Styling */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Circular Image Styling */
+.circle-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.circle-image img:hover {
+  transform: scale(1.1);
+}
+
+/* Description Block */
+.place-description {
+  flex: 1;
+}
+
+.place-description h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.place-description p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.close {
+  position: fixed; /* Fixed position to keep it visible */
+  top: 20px; /* Adjust as needed */
+  right: 30px; /* Adjust as needed */
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1100; /* Ensure it stays above the modal content */
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: #f1f1f1;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+}
+/* Styling for search bar */
+.search-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-input {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+</style>
+<script>
+  // Function to filter rows based on keywords
+  function filterRows() {
+    const input = document.getElementById("searchInput").value.toLowerCase();
+    const rows = document.querySelectorAll(".row");
+
+    rows.forEach(row => {
+      const textContent = row.textContent.toLowerCase();
+      row.style.display = textContent.includes(input) ? "flex" : "none";
+    });
+  }
+</script>
+
+<script>
+  // Function to open the modal
+  function openModal(src) {
+    document.getElementById("imageModal").style.display = "block";
+    document.getElementById("modalImg").src = src;
+  }
+
+  function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+  }
+
+</script>
+
+
+<style id='classic-theme-styles-inline-css'>
+    
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--contrast: var(--contrast);--wp--preset--color--contrast-2: var(--contrast-2);--wp--preset--color--contrast-3: var(--contrast-3);--wp--preset--color--base: var(--base);--wp--preset--color--base-2: var(--base-2);--wp--preset--color--base-3: var(--base-3);--wp--preset--color--accent: var(--accent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+
+
+<link rel='stylesheet' id='kk-star-ratings-css' href='../../plugins/kk-star-ratings/src/core/public/css/kk-star-ratings.min.css?ver=5.4.8' media='all' />
+<link rel='stylesheet' id='kk-star-ratings-css' href='../../plugins/kk-star-ratings/src/core/public/css/kk-star-ratings.min.css' media='all' />
+<link rel='stylesheet' id='tab-accordion-style-css' href='../../plugins/tab-accordion-plugin/assets/style.css?ver=6.5.4' media='all' />
+<link rel='stylesheet' id='tab-accordion-style-css' href='../../plugins/tab-accordion-plugin/assets/style.css' media='all' />
+<link rel='stylesheet' id='wp-show-posts-css' href='../../plugins/wp-show-posts/css/wp-show-posts-min.css?ver=1.1.6' media='all' />
+<link rel='stylesheet' id='wp-show-posts-css' href='../../plugins/wp-show-posts/css/wp-show-posts-min.css' media='all' />
+<link rel='stylesheet' id='ez-toc-sticky-css' href='../../plugins/easy-table-of-contents/assets/css/ez-toc-sticky.min.css?ver=2.0.66.1' media='all' />
+<link rel='stylesheet' id='ez-toc-sticky-css' href='../../plugins/easy-table-of-contents/assets/css/ez-toc-sticky.min.css' media='all' />
+<style id='ez-toc-sticky-inline-css'>
+.ez-toc-sticky-fixed{position: fixed;top: 0;left: 0;z-index: 999999;width: auto;max-width: 100%;} .ez-toc-sticky-fixed .ez-toc-sidebar {position: relative;top: auto;width: auto;;box-shadow: 1px 1px 10px 3px rgb(0 0 0 / 20%);box-sizing: border-box;padding: 20px 30px;background: #fff;margin-left: 0 !important; height: 100vh; overflow-y: auto;overflow-x: hidden;} .ez-toc-sticky-fixed .ez-toc-sidebar #ez-toc-sticky-container { padding: 0px;border: none;margin-bottom: 0;margin-top: 65px;} #ez-toc-sticky-container a { color: #000;} .ez-toc-sticky-fixed .ez-toc-sidebar .ez-toc-sticky-title-container {border-bottom-color: #EEEEEE;background-color: #fff;padding:15px;border-bottom: 1px solid #e5e5e5;width: 100%;position: absolute;height: auto;top: 0;left: 0;z-index: 99999999;} .ez-toc-sticky-fixed .ez-toc-sidebar .ez-toc-sticky-title-container .ez-toc-sticky-title {font-weight: 600;font-size: 18px;color: #111;} .ez-toc-sticky-fixed .ez-toc-close-icon {-webkit-appearance: none;padding: 0;cursor: pointer;background: 0 0;border: 0;float: right;font-size: 30px;font-weight: 600;line-height: 1;position: relative;color: #111;top: -2px;text-decoration: none;} .ez-toc-open-icon {position: fixed;left: 0px;top:8%;text-decoration: none;font-weight: bold;padding: 5px 10px 15px 10px;box-shadow: 1px -5px 10px 5px rgb(0 0 0 / 10%);background-color: #fff;color:#111;display: inline-grid;line-height: 1.4;border-radius: 0px 10px 10px 0px;z-index: 999999;} .ez-toc-sticky-fixed.hide {-webkit-transition: opacity 0.3s linear, left 0.3s cubic-bezier(0.4, 0, 1, 1);-ms-transition: opacity 0.3s linear, left 0.3s cubic-bezier(0.4, 0, 1, 1);-o-transition: opacity 0.3s linear, left 0.3s cubic-bezier(0.4, 0, 1, 1);transition: opacity 0.3s linear, left 0.3s cubic-bezier(0.4, 0, 1, 1);left: -100%;} .ez-toc-sticky-fixed.show {-webkit-transition: left 0.3s linear, left 0.3s easy-out;-moz-transition: left 0.3s linear;-o-transition: left 0.3s linear;transition: left 0.3s linear;left: 0;} .ez-toc-open-icon span.arrow { font-size: 18px; } .ez-toc-open-icon span.text {font-size: 13px;writing-mode: vertical-rl;text-orientation: mixed;} @media screen  and (max-device-width: 640px) {.ez-toc-sticky-fixed .ez-toc-sidebar {min-width: auto;} .ez-toc-sticky-fixed .ez-toc-sidebar.show { padding-top: 35px; } .ez-toc-sticky-fixed .ez-toc-sidebar #ez-toc-sticky-container { min-width: 100%; } }
+</style>
+<link rel='stylesheet' id='generate-style-grid-css' href='../../themes/generatepress/assets/css/unsemantic-grid.min.css?ver=3.4.0' media='all' />
+<link rel='stylesheet' id='generate-style-grid-css' href='../../themes/generatepress/assets/css/unsemantic-grid.min.css' media='all' />
+<link rel='stylesheet' id='generate-style-css' href='../../themes/generatepress/assets/css/style.min.css?ver=3.4.0' media='all' />
+<link rel='stylesheet' id='generate-style-css' href='../../themes/generatepress/assets/css/style.min.css' media='all' />
+<style id='generate-style-inline-css'>
+@media (max-width:768px){}
+body{background-color:#ffffff;color:#3a3a3a;}a{color:#1e73be;}a:visited{color:#000000;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:1140px;}.wp-block-group__inner-container{max-width:1140px;margin-left:auto;margin-right:auto;}.site-header .header-image{width:300px;}.generate-back-to-top{font-size:20px;border-radius:3px;position:fixed;bottom:30px;right:30px;line-height:40px;width:40px;text-align:center;z-index:10;transition:opacity 300ms ease-in-out;opacity:0.1;transform:translateY(1000px);}.generate-back-to-top__show{opacity:1;transform:translateY(0);}:root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be;}:root .has-contrast-color{color:var(--contrast);}:root .has-contrast-background-color{background-color:var(--contrast);}:root .has-contrast-2-color{color:var(--contrast-2);}:root .has-contrast-2-background-color{background-color:var(--contrast-2);}:root .has-contrast-3-color{color:var(--contrast-3);}:root .has-contrast-3-background-color{background-color:var(--contrast-3);}:root .has-base-color{color:var(--base);}:root .has-base-background-color{background-color:var(--base);}:root .has-base-2-color{color:var(--base-2);}:root .has-base-2-background-color{background-color:var(--base-2);}:root .has-base-3-color{color:var(--base-3);}:root .has-base-3-background-color{background-color:var(--base-3);}:root .has-accent-color{color:var(--accent);}:root .has-accent-background-color{background-color:var(--accent);}body, button, input, select, textarea{font-family:"Lato", sans-serif;}body{line-height:1.5;}.entry-content > [class*="wp-block-"]:not(:last-child):not(.wp-block-heading){margin-bottom:1.5em;}.main-title{font-size:45px;}.main-navigation a, .menu-toggle{font-family:"Lato", sans-serif;text-transform:uppercase;}.main-navigation .main-nav ul ul li a{font-size:14px;}.widget-title{font-family:"Lato", sans-serif;font-weight:bold;font-size:17px;}.sidebar .widget, .footer-widgets .widget{font-size:14px;}h1{font-weight:300;font-size:40px;}h2{font-weight:300;font-size:38px;}h3{font-size:20px;}h4{font-size:inherit;}h5{font-size:inherit;}.site-info{font-size:14px;}@media (max-width:768px){.main-title{font-size:20px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;color:#3a3a3a;}.site-header a{color:#3a3a3a;}.main-title a,.main-title a:hover{color:#3a3a3a;}.site-description{color:#757575;}.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items{color:#ffffff;}.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#ffffff;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#ffffff;}.main-navigation ul ul{background-color:#ffffff;}.main-navigation .main-nav ul ul li a{color:#333333;}.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover > a,.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"]) > a{color:#b11116;background-color:#ffffff;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#b11116;background-color:#ffffff;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.inside-article a,.paging-navigation a,.comments-area a,.page-header a{color:#b11116;}.entry-meta{color:#595959;}.entry-meta a{color:#595959;}.entry-meta a:hover{color:#1e73be;}h1{color:#333333;}h2{color:#b11116;}h3{color:#333333;}h4{color:#333333;}.sidebar .widget{background-color:#ffffff;}.sidebar .widget a{color:#333333;}.sidebar .widget a:hover{color:#b11116;}.sidebar .widget .widget-title{color:#b11116;}.footer-widgets{color:#898989;background-color:#ffffff;}.footer-widgets a{color:#898989;}.footer-widgets a:hover{color:#ff8f00;}.footer-widgets .widget-title{color:#ffffff;}.site-info{color:#5e5e5e;background-color:#000000;}.site-info a{color:#5e5e5e;}.site-info a:hover{color:#606060;}.footer-bar .widget_nav_menu .current-menu-item a{color:#606060;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#666666;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f3f3f;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}:root{--gp-search-modal-bg-color:var(--base-3);--gp-search-modal-text-color:var(--contrast);--gp-search-modal-overlay-bg-color:rgba(0,0,0,0.2);}@media (max-width: 768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#ffffff;}}.inside-top-bar{padding:10px;}.inside-header{padding:40px;}.site-main .wp-block-group__inner-container{padding:40px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}.widget-area .widget{padding:40px 20px 40px 20px;}.site-info{padding:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:10px;}.site-main .wp-block-group__inner-container{padding:10px;}.footer-widgets{padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;}.site-info{padding-right:10px;padding-left:10px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-10px;width:calc(100% + 20px);max-width:calc(100% + 20px);}}/* End cached CSS */@media (max-width: 768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+.footer-widgets{background-image:url('../../image/footer/dubai3.jpg');background-repeat:no-repeat;background-size:cover;background-position:50% 50%;}
+.dynamic-author-image-rounded{border-radius:100%;}.dynamic-featured-image, .dynamic-author-image{vertical-align:middle;}.one-container.blog .dynamic-content-template:not(:last-child), .one-container.archive .dynamic-content-template:not(:last-child){padding-bottom:0px;}.dynamic-entry-excerpt > p:last-child{margin-bottom:0px;}
+.navigation-branding .main-title{font-weight:bold;text-transform:none;font-size:45px;}@media (max-width: 768px){.navigation-branding .main-title{font-size:20px;}}
+.page-hero{background-color:rgba(0,0,0,0.39);background-image:url(../../image/AbuDhabi/abudhabihome.jpg);background-size:cover;background-image:linear-gradient(0deg, rgba(0,0,0,0.39),rgba(0,0,0,0.39)), url(../../image/AbuDhabi/iStock-1143453284.jpg);background-position:center center;background-repeat:no-repeat;padding-top:250px;padding-bottom:250px;text-align:center;box-sizing:border-box;}.inside-page-hero > *:last-child{margin-bottom:0px;}.page-hero time.updated{display:none;}.header-wrap{position:absolute;left:0px;right:0px;z-index:10;}.header-wrap .site-header{background:transparent;}@media (max-width:768px){.page-hero{padding-top:100px;padding-bottom:100px;}}
+</style>
+<link rel='stylesheet' id='generate-mobile-style-css' href='../../themes/generatepress/assets/css/mobile.min.css' media='all' />
+<link rel='stylesheet' id='generate-child-css' href='../../themes/generatepress_child/style.css?ver=1717902070' media='all' />
+<link rel='stylesheet' id='generate-child-css' href='../../themes/generatepress_child/style.css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css' href='https://pro.fontawesome.com/releases/v5.13.0/css/all.css' media='all' integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous" />
+<link rel='stylesheet' id='generate-sticky-css' href='../../plugins/gp-premium/menu-plus/functions/css/sticky.min.css?ver=2.4.1' media='all' />
+<link rel='stylesheet' id='generate-offside-css' href='../../plugins/gp-premium/menu-plus/functions/css/offside.min.css?ver=2.4.1' media='all' />
+
+<style id='generate-offside-inline-css'>
+:root{--gp-slideout-width:265px;}.slideout-navigation.main-navigation{background-color:#ffffff;}.slideout-navigation.main-navigation .main-nav ul li a{color:#333333;font-weight:normal;text-transform:none;}.slideout-navigation.main-navigation.do-overlay .main-nav ul ul li a{font-size:1em;}.slideout-navigation.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#b11116;}.slideout-navigation, .slideout-navigation a{color:#333333;}.slideout-navigation button.slideout-exit{color:#333333;padding-left:20px;padding-right:20px;}.slide-opened nav.toggled .menu-toggle:before{display:none;}@media (max-width: 768px){.menu-bar-item.slideout-toggle{display:none;}}
+</style>
+<link rel='stylesheet' id='generate-navigation-branding-css' href='../../plugins/gp-premium/menu-plus/functions/css/navigation-branding.min.css?ver=2.4.1' media='all' />
+<link rel='stylesheet' id='generate-navigation-branding-css' href='../../plugins/gp-premium/menu-plus/functions/css/navigation-branding.min.css' media='all' />
+<style id='generate-navigation-branding-inline-css'>
+@media (max-width: 768px){.site-header, #site-navigation, #sticky-navigation{display:none !important;opacity:0.0;}#mobile-header{display:block !important;width:100% !important;}#mobile-header .main-nav > ul{display:none;}#mobile-header.toggled .main-nav > ul, #mobile-header .menu-toggle, #mobile-header .mobile-bar-items{display:block;}#mobile-header .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4;}}.main-navigation .sticky-navigation-logo, .main-navigation.navigation-stick .site-logo:not(.mobile-header-logo){display:none;}.main-navigation.navigation-stick .sticky-navigation-logo{display:block;}.navigation-branding img, .site-logo.mobile-header-logo img{height:60px;width:auto;}.navigation-branding .main-title{line-height:60px;}@media (max-width: 1150px){#site-navigation .navigation-branding, #sticky-navigation .navigation-branding{margin-left:10px;}}@media (max-width: 768px){.main-navigation:not(.slideout-navigation) .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;}.main-navigation:not(.slideout-navigation) .inside-navigation{-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;}.nav-aligned-center .navigation-branding, .nav-aligned-left .navigation-branding{margin-right:auto;}.nav-aligned-center  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-center  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav{margin-right:0px;}}
+</style>
+<style id='block-visibility-screen-size-styles-inline-css'>
+/* Large screens (desktops, 992px and up) */
+@media ( min-width: 992px ) {
+	.block-visibility-hide-large-screen {
+		display: none !important;
+	}
+}
+
+/* Medium screens (tablets, between 768px and 992px) */
+@media ( min-width: 768px ) and ( max-width: 991.98px ) {
+	.block-visibility-hide-medium-screen {
+		display: none !important;
+	}
+}
+
+/* Small screens (mobile devices, less than 768px) */
+@media ( max-width: 767.98px ) {
+	.block-visibility-hide-small-screen {
+		display: none !important;
+	}
+}
+</style>
+<link rel='stylesheet' id='font-awesome-official-v4shim-css' href='https://pro.fontawesome.com/releases/v5.13.0/css/v4-shims.css' media='all' integrity="sha384-/WH+7sthk7TduL5PHd16Jew3Hd7eKInsAclAq/MoZWeyR4bMgUj12MSN79PtHEjc" crossorigin="anonymous" />
+<style id='font-awesome-official-v4shim-inline-css'>
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.eot"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.woff2") format("woff2"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.woff") format("woff"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.ttf") format("truetype"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.eot"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.woff2") format("woff2"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.woff") format("woff"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.ttf") format("truetype"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.eot"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.woff2") format("woff2"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.woff") format("woff"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.ttf") format("truetype"),
+		url("https://pro.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+}
+</style>
+<script src="../../wp-includes/js/jquery/jquery.min.jsver=3.7.1" id="jquery-core-js"></script>
+<script src="../../wp-includes/js/jquery/jquery-migrate.min.jsver=3.4.1" id="jquery-migrate-js"></script>
+<script src="../../plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.jsver=2.1.1" id="stickyAnythingLib-js"></script>
+
+
+<style id="ez-toc-inline-css">#ez-toc-container{background:#f9f9f9;border:1px solid #aaa;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05);display:table;margin-bottom:1em;padding:10px 20px 10px 10px;position:relative;width:auto}div.ez-toc-widget-container{padding:0;position:relative}#ez-toc-container.ez-toc-light-blue{background:#edf6ff}#ez-toc-container.ez-toc-white{background:#fff}#ez-toc-container.ez-toc-black{background:#000}#ez-toc-container.ez-toc-transparent{background:none}div.ez-toc-widget-container ul{display:block}div.ez-toc-widget-container li{border:none;padding:0}div.ez-toc-widget-container ul.ez-toc-list{padding:10px}#ez-toc-container ul ul,.ez-toc div.ez-toc-widget-container ul ul{margin-left:1.5em}#ez-toc-container li,#ez-toc-container ul{padding:0}#ez-toc-container li,#ez-toc-container ul,#ez-toc-container ul li,div.ez-toc-widget-container,div.ez-toc-widget-container li{background:0 0;list-style:none;line-height:1.6;margin:0;overflow:hidden;z-index:1}#ez-toc-container .ez-toc-title{text-align:left;line-height:1.45;margin:0;padding:0}.ez-toc-title-container{display:table;width:100%}.ez-toc-title,.ez-toc-title-toggle{display:inline;text-align:left;vertical-align:middle}.ez-toc-btn,.ez-toc-glyphicon{display:inline-block;font-weight:400}#ez-toc-container.ez-toc-black a,#ez-toc-container.ez-toc-black a:visited,#ez-toc-container.ez-toc-black p.ez-toc-title{color:#fff}#ez-toc-container div.ez-toc-title-container+ul.ez-toc-list{margin-top:1em}.ez-toc-wrap-left{margin:0 auto 1em 0!important}.ez-toc-wrap-left-text{float:left}.ez-toc-wrap-right{margin:0 0 1em auto!important}.ez-toc-wrap-right-text{float:right}#ez-toc-container a{color:#444;box-shadow:none;text-decoration:none;text-shadow:none;display:inline-flex;align-items:stretch;flex-wrap:nowrap}#ez-toc-container a:visited{color:#9f9f9f}#ez-toc-container a:hover{text-decoration:underline}#ez-toc-container a.ez-toc-toggle{display:flex;align-items:center}.ez-toc-widget-container ul.ez-toc-list li::before{content:' ';position:absolute;left:0;right:0;height:30px;line-height:30px;z-index:-1}.ez-toc-widget-container ul.ez-toc-list li.active{background-color:#ededed}.ez-toc-widget-container li.active>a{font-weight:900}.ez-toc-btn{padding:6px 12px;margin-bottom:0;font-size:14px;line-height:1.428571429;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.ez-toc-btn:focus{outline:#333 dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.ez-toc-btn:focus,.ez-toc-btn:hover{color:#333;text-decoration:none}.ez-toc-btn.active,.ez-toc-btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.ez-toc-btn-default{color:#333;background-color:#fff;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);text-shadow:0 1px 0 #fff;background-image:-webkit-gradient(linear,left 0,left 100%,from(#fff),to(#e0e0e0));background-image:-webkit-linear-gradient(top,#fff 0,#e0e0e0 100%);background-image:-moz-linear-gradient(top,#fff 0,#e0e0e0 100%);background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%);background-repeat:repeat-x;border-color:#ccc}.ez-toc-btn-default.active,.ez-toc-btn-default:active,.ez-toc-btn-default:focus,.ez-toc-btn-default:hover{color:#333;background-color:#ebebeb;border-color:#adadad}.ez-toc-btn-default.active,.ez-toc-btn-default:active{background-image:none;background-color:#e0e0e0;border-color:#dbdbdb}.ez-toc-btn-sm,.ez-toc-btn-xs{padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.ez-toc-btn-xs{padding:1px 5px}.ez-toc-btn-default:active{-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.active,.ez-toc-btn:active{background-image:none}.ez-toc-btn-default:focus,.ez-toc-btn-default:hover{background-color:#e0e0e0;background-position:0 -15px}.ez-toc-pull-right{float:right!important;margin-left:10px}#ez-toc-container label.cssicon,#ez-toc-widget-container label.cssicon{height:30px}.ez-toc-glyphicon{position:relative;top:1px;font-family:'Glyphicons Halflings';-webkit-font-smoothing:antialiased;font-style:normal;line-height:1;-moz-osx-font-smoothing:grayscale}.ez-toc-glyphicon:empty{width:1em}.ez-toc-toggle i.ez-toc-glyphicon,label.cssicon .ez-toc-glyphicon:empty{font-size:16px;margin-left:2px}#ez-toc-container input,.ez-toc-toggle #item{position:absolute;left:-999em}#ez-toc-container input[type=checkbox]:checked+nav,#ez-toc-widget-container input[type=checkbox]:checked+nav{opacity:0;max-height:0;border:none;display:none}#ez-toc-container .ez-toc-js-icon-con,#ez-toc-container label{position:relative;cursor:pointer;display:initial}#ez-toc-container .ez-toc-js-icon-con,#ez-toc-container .ez-toc-toggle label,.ez-toc-cssicon{float:right;position:relative;font-size:16px;padding:0;border:1px solid #999191;border-radius:5px;cursor:pointer;left:10px;width:35px}div#ez-toc-container .ez-toc-title{display:initial}.ez-toc-wrap-center{margin:0 auto 1em!important}#ez-toc-container a.ez-toc-toggle{color:#444;background:inherit;border:inherit}#ez-toc-container .eztoc-toggle-hide-by-default,label.cssiconcheckbox{display:none}.ez-toc-widget-container ul li a{padding-left:10px;display:inline-flex;align-items:stretch;flex-wrap:nowrap}.ez-toc-widget-container ul.ez-toc-list li{height:auto!important}.ez-toc-icon-toggle-span{display:flex;align-items:center;width:35px;height:30px;justify-content:center;direction:ltr}.eztoc_no_heading_found{background-color:#ff0;padding-left:10px}.ez-toc-container-direction {direction: ltr;}.ez-toc-counter ul {direction: ltr;counter-reset: item ;}.ez-toc-counter nav ul li a::before {content: counter(item, numeric) '. ';margin-right: .2em; counter-increment: item;flex-grow: 0;flex-shrink: 0;float: left;	 }.ez-toc-widget-direction {direction: ltr;}.ez-toc-widget-container ul {direction: ltr;counter-reset: item ;}.ez-toc-widget-container nav ul li a::before {content: counter(item, numeric) '. ';margin-right: .2em; counter-increment: item;flex-grow: 0;flex-shrink: 0;float: left;	 }div#ez-toc-container .ez-toc-title {font-size: 120%;}div#ez-toc-container .ez-toc-title {font-weight: 500;}div#ez-toc-container ul li {font-size: 100%;}div#ez-toc-container ul li {font-weight: 500;}div#ez-toc-container nav ul ul li {font-size: 95%;}div#ez-toc-container {width: 100%;}</style>		<script>
+			( function() {
+				window.onpageshow = function( event ) {
+					// Defined window.wpforms means that a form exists on a page.
+					// If so and back/forward button has been clicked,
+					// force reload a page to prevent the submit button state stuck.
+					if ( typeof window.wpforms !== 'undefined' && event.persisted ) {
+						window.location.reload();
+					}
+				};
+			}() );
+		</script>
+		
+
+<link rel="icon" href="../../image/Logo/WahaLogo-BlkText-xxxxxs.png" sizes="32x32" />
+<link rel="icon" href="../../image/Logo/WahaLogo-BlkText-xxxxs.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../../image/Logo/WahaLogo-BlkText-xxxxs.png" />
+<meta name="msapplication-TileImage" content="../../image/Logo/WahaLogo-BlkText-xxxxs.png" />
+<style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-border-style: solid;
+--wpforms-field-border-size: 1px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-border-color-spare: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-field-menu-color: #ffffff;
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-border-style: none;
+--wpforms-button-border-size: 1px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-border-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-background-image: none;
+--wpforms-background-position: center center;
+--wpforms-background-repeat: no-repeat;
+--wpforms-background-size: cover;
+--wpforms-background-width: 100px;
+--wpforms-background-height: 100px;
+--wpforms-background-color: rgba( 0, 0, 0, 0 );
+--wpforms-background-url: none;
+--wpforms-container-padding: 0px;
+--wpforms-container-border-style: none;
+--wpforms-container-border-width: 1px;
+--wpforms-container-border-color: #000000;
+--wpforms-container-border-radius: 3px;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+--wpforms-container-shadow-size-box-shadow: none;
+
+				}
+			</style></head>
+
+<body class="tour-template-default single single-tour postid-556 wp-custom-logo wp-embed-responsive post-image-above-header post-image-aligned-center slideout-enabled slideout-mobile sticky-menu-fade mobile-header mobile-header-logo no-sidebar nav-float-right separate-containers fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover full-width-content"  >
+
+<div class="header-wrap"><a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a><div class="top-header grid-parent">
+<div class="grid-container">
+<div class="grid-20">
+aihaong@wahawonders.com
+</div>
+<div class="grid-50">
+	<span style="color:#b11116;">Hotline:</span> +971 58 256 2505	
+</div>
+<div class="grid-30" style="text-align:right;">
+<a href="https://wahawonders.com/faqs/"><span>FAQs</span></a> |
+
+<a href="/payment-guidelines"><span>Payment Guidelines</span></a> | 
+
+<a href="/contact"><span>Contact Us</span></a></div>
+</div>
+</div>
+
+		<header class="site-header" id="masthead" aria-label="Site"   >
+			<div class="inside-header grid-container grid-parent">
+							<div class="header-widget">
+				<aside id="custom_html-6" class="widget_text widget inner-padding widget_custom_html"><div class="textwidget custom-html-widget"><ul class="box_social_top">
+                    <li><a href="https://www.facebook.com/profile.php?id=61557391527505&locale=vi_VN" target="_blank" class="facebook" rel="nofollow noopener">&nbsp;</a></li>
+                    <li><a href="https://www.instagram.com/waha.wonders/?hl=en" target="_blank" class="instagram" rel="nofollow noopener">&nbsp;</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCdyzOui2XosZrbSyT4d7rUQ" target="_blank" class="youtube" rel="nofollow noopener">&nbsp;</a></li>    </ul></div></aside>			</div>
+			<div class="site-logo">
+					<a href="https://wahawonders.com/" rel="home">
+						<img  class="header-image is-logo-image" style="width: 92px;" alt="Absolute Asia Travel" src="../../image/Logo/finalwahsa-02.png" />
+					</a>
+				</div>		<nav class="has-sticky-branding main-navigation sub-menu-right" id="site-navigation" aria-label="Primary"   >
+			<div class="inside-navigation grid-container grid-parent">
+					
+                <div id="primary-menu" class="main-nav"><ul id="menu-main" class=" menu sf-menu"><li id="menu-item-14333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-14333"><a href="https://wahawonders.com/" aria-current="page"><i class="fas fa-home"></i></a></li>
+                    <li id="menu-item-930" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-930"><a href="#">Emirates<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+                    <ul class="sub-menu">
+                    <li id="menu-item-935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-935"><a href="https://wahawonders.com/AbuDhabi/">Abu Dhabi</a></li>
+                    <li id="menu-item-931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931"><a href="https://wahawonders.com/Dubai/">Dubai</a></li>
+                    <li id="menu-item-932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-932"><a href="https://wahawonders.com/Ajman/">Ajman</a></li>
+                    <li id="menu-item-933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933"><a href="https://wahawonders.com/Fujairah/">Fujairah</a></li>
+                    <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="https://wahawonders.com/RasAlKhaimah/">Ras Al Khaimah</a></li>
+                    <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="https://wahawonders.com/Sharjah/">Sharjah</a></li>
+                    <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="https://wahawonders.com/Umm Al Quwain/">Umm Al Quwain</a></li>
+                    </ul>
+                    </li>
+                    <li id="menu-item-1328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1328"><a href="#">Travel Styles<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+                    <ul class="sub-menu">
+                    <li id="menu-item-716" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-716"><a href="https://wahawonders.com/tour-category/classic-culture/">Classic &#038; Culture</a></li>
+                    <li id="menu-item-714" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-714"><a href="https://wahawonders.com/tour-category/active-adventure/">Active &#038; Adventure</a></li>
+                    <li id="menu-item-715" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-715"><a href="https://wahawonders.com/tour-category/biking-cycling/">Biking &#038; Cycling</a></li>
+                    <li id="menu-item-719" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-719"><a href="https://wahawonders.com/tour-category/honeymoon-romance/">Honeymoon &#038; Romance</a></li>
+                    <li id="menu-item-718" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-718"><a href="https://wahawonders.com/tour-category/family-vacations/">Family Vacations</a></li>
+                    <li id="menu-item-2537" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-2537"><a href="https://wahawonders.com/tour-category/cruise-holidays/">Cruise Holidays</a></li>
+                    <li id="menu-item-720" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-720"><a href="https://wahawonders.com/tour-category/luxury-travel/">Luxury Travel</a></li>
+                    <li id="menu-item-721" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-721"><a href="https://wahawonders.com/tour-category/multi-country-tours/">Southeast Asia In Your Style!</a></li>
+                    <li id="menu-item-12864" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-12864"><a href="https://wahawonders.com/tour-category/day-trips-and-excursions/">Day Trips and Excursions</a></li>
+                    </ul>
+                    </li>
+                    <li id="menu-item-14549" class="menu-item menu-item-type-post_type menu-item-object-lp menu-item-14549"><a href="https://wahawonders.com/lp/ebook-51-luxury-hotels-vietnam/">Free Ebook</a></li>
+                    <li id="menu-item-14299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14299"><a href="#">About Us<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+                    <ul class="sub-menu">
+                    <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://wahawonders.com/about/">Why Us</a></li>
+                    <li id="menu-item-17830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17830"><a href="https://wahawonders.com/our-legal-documents/">Our Legal Documents</a></li>
+                    <li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://wahawonders.com/contact/">Contact</a></li>
+                    <li id="menu-item-14327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14327"><a href="https://wahawonders.com/testimonials/">Testimonials</a></li>
+                    <li id="menu-item-14301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14301"><a href="https://wahawonders.com/blog/">Travel Blog</a></li>
+                    <li id="menu-item-16351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16351"><a href="https://wahawonders.com/faqs/">FAQs</a></li>
+                    </ul>
+                    </li>
+                    </ul></div>			</div>
+                        </nav>
+                                    </div>
+                        </header>
+                    <!-- For the Mobile -->
+                        <nav id="mobile-header"   class="main-navigation mobile-header-navigation has-branding">
+                            <div class="inside-navigation grid-container grid-parent">
+                                <div class="site-logo mobile-header-logo">
+                                        <a href="https://wahawonders.com/" title="Waha Wonders" rel="home">
+                                            <img src="image/Logo/WahaLogo-BlkText.png" alt="Waha Wonders" class="is-logo-image" width="" height="" />
+                                        </a>
+                                    </div>					<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
+                                        <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" /></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" /></svg></span><span class="screen-reader-text">Menu</span>					</button>
+                                    <div id="mobile-menu" class="main-nav"><ul id="menu-main-1" class=" menu sf-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-14333"><a href="https://wahawonders.com/" aria-current="page"><i class="fas fa-home"></i></a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-930"><a href="#">Destinations<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-935"><a href="https://wahawonders.com/AbuDhabi/">Abu Dhabi</a></li>
+                        <li id="menu-item-931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931"><a href="https://wahawonders.com/Dubai/">Dubai</a></li>
+                        <li id="menu-item-932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-932"><a href="https://wahawonders.com/Ajman/">Ajman</a></li>
+                        <li id="menu-item-933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933"><a href="https://wahawonders.com/Fujairah/">Fujairah</a></li>
+                        <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="https://wahawonders.com/RasAlKhaimah/">Ras Al Khaimah</a></li>
+                        <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="https://wahawonders.com/Sharjah/">Sharjah</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1328"><a href="#">Travel Styles<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+                    <ul class="sub-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-716"><a href="https://wahawonders.com/tour-category/classic-culture/">Classic &#038; Culture</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-714"><a href="https://wahawonders.com/tour-category/active-adventure/">Active &#038; Adventure</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-715"><a href="https://wahawonders.com/tour-category/biking-cycling/">Biking &#038; Cycling</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-719"><a href="https://wahawonders.com/tour-category/honeymoon-romance/">Honeymoon &#038; Romance</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-718"><a href="https://wahawonders.com/tour-category/family-vacations/">Family Vacations</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-2537"><a href="https://wahawonders.com/tour-category/cruise-holidays/">Cruise Holidays</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-720"><a href="https://wahawonders.com/tour-category/luxury-travel/">Luxury Travel</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-721"><a href="https://wahawonders.com/tour-category/multi-country-tours/">Southeast Asia In Your Style!</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-12864"><a href="https://wahawonders.com/tour-category/day-trips-and-excursions/">Day Trips and Excursions</a></li>
+                    </ul>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-lp menu-item-14549"><a href="https://wahawonders.com/lp/ebook-51-luxury-hotels-vietnam/">Free Ebook</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14299"><a href="#">About Us<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+                    <ul class="sub-menu">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://wahawonders.com/about/">Why Us</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17830"><a href="https://wahawonders.com/our-legal-documents/">Our Legal Documents</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://wahawonders.com/contact/">Contact</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14327"><a href="https://wahawonders.com/testimonials/">Testimonials</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14301"><a href="https://wahawonders.com/blog/">Travel Blog</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16351"><a href="https://wahawonders.com/faqs/">FAQs</a></li>
+                    </ul>
+                    </li>
+                    </ul></div>			</div><!-- .inside-navigation -->
+                        </nav><!-- #site-navigation -->
+                        </div><!-- .header-wrap -->
+
+                <div class="page-hero">
+					<div class="inside-page-hero grid-container grid-parent">
+						<h1>Abu Dhabi</h1>
+<div class="another-field">Abu Dhabi, the capital of the United Arab Emirates, is a dynamic metropolis that harmoniously blends its rich cultural heritage with visionary modern development. From the stunning Sheikh Zayed Grand Mosque and the historic Qasr Al Hosn to cutting-edge architectural marvels like Etihad Towers and cultural landmarks such as the Louvre Abu Dhabi, the city showcases a captivating tapestry of tradition and innovation. Its commitment to sustainable growth is evident in projects like Masdar City, while its vibrant economy, founded on oil wealth, increasingly embraces sectors like finance, renewable energy, tourism, and technology. With world-class healthcare, education, and leisure offerings, Abu Dhabi provides a high quality of life, reflecting its role as a global hub of commerce, culture, and forward-thinking progress.</div>
+<div class="breadcrumb">
+
+</div>
+					</div>
+				</div>
+                
+	</div>
+</div>
+<script>
+jQuery('.tour-information-link').click(function (event){
+                jQuery('html, body').animate({
+                    scrollTop: jQuery("#tour-information").offset().top
+                }, 200);
+								event.stopPropagation();
+            });
+jQuery('.tour-itinerary-link').click(function (event){
+                jQuery('html, body').animate({
+                    scrollTop: jQuery("#tour-itinerary").offset().top
+                }, 200);
+								event.stopPropagation();
+            });	
+jQuery('.price-inclusion-link').click(function (event){
+                jQuery('html, body').animate({
+                    scrollTop: jQuery("#price-inclusion").offset().top
+                }, 200);
+								event.stopPropagation();
+            });	
+jQuery('.best-time-link').click(function (event){
+                jQuery('html, body').animate({
+                    scrollTop: jQuery("#best-time").offset().top
+                }, 200);
+								event.stopPropagation();
+            });	
+</script>
+	<div class="site grid-container container hfeed grid-parent" id="page">
+				<div class="site-content" id="content">
+			
+	<div id="primary" class="content-area grid-parent mobile-grid-100 grid-100 tablet-grid-100">
+		<main id="main" class="site-main">
+			<div class="grid-container">
+	
+    
+    </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="popupCloseButton">&times;</span>
+            <p><div class="facetwp-template" data-name="tour_map">        <div class="acf-map">
+                                        <div class="marker" data-lat="25.276987" data-lng="55.296249">
+                                <h4 style="text-transform: capitalize;">Dubai</h4>
+                                <!--<p class="address"></p>
+				                    <p></p>-->
+                            </div>
+                                                    <div class="marker" data-lat="25.2798" data-lng="55.6960">
+                                <h4 style="text-transform: capitalize;">Desert Safari</h4>
+                                <!--<p class="address"></p>
+				                    <p></p>-->
+                            </div>
+                                                    <div class="marker" data-lat="24.4539" data-lng="54.3773">
+                                <h4 style="text-transform: capitalize;">Abu Dhabi</h4>
+                                <!--<p class="address"></p>
+				                    <p></p>-->
+                            </div>
+                                                    <div class="marker" data-lat="22.991692" data-lng="53.805612">
+                                <h4 style="text-transform: capitalize;">Liwa</h4>                                                    
+                                <!--<p class="address"></p>
+				                    <p></p>-->
+                            </div>
+                            <div class="marker" data-lat="25.9436748" data-lng="56.1398548">
+                                <h4 style="text-transform: capitalize;">Jebel Jais</h4>
+                                <!--<p class="address"></p>
+				                    <p></p>-->
+                            </div>
+                                </div>
+    
+<style type="text/css">
+
+    .acf-map {
+        width: 100%;
+        height: 400px;
+        border: #ccc solid 1px;
+        margin: 20px 0;
+    }
+
+    /* fixes potential theme css conflict */
+    .acf-map img {
+        max-width: inherit !important;
+    }
+
+</style>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCBwk8LqHMHLq7sLq38aRsxZ-hZ6rk2_-g&#038;ver=2.7.1'></script>
+<script type='text/javascript' src='https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js?ver=2.7.1'></script>
+<script type="text/javascript">
+    (function($) {
+        function new_map( $el ) {
+            var $markers = $el.find('.marker');
+            
+            var args = {
+                zoom		: 16,
+                center		: new google.maps.LatLng(0, 0),
+                mapTypeId	: google.maps.MapTypeId.ROADMAP
+            };
+            
+            var map = new google.maps.Map( $el[0], args);
+            
+            map.markers = [];
+
+            var _array = new Array();
+
+            var count = 0;
+            
+            $markers.each(function(){
+                _array[count] = new google.maps.LatLng($(this).attr('data-lat'), $(this).attr('data-lng'));
+
+                add_marker( $(this), map, count+1 );
+                count++;
+            });
+            
+            center_map( map );
+            var flightPath = new google.maps.Polyline({
+                path: _array,
+                geodesic: true,
+                strokeColor: '#fd9324',
+                strokeOpacity: 1,
+                strokeWeight: 4
+            });
+            flightPath.setMap(map);
+            
+            return map;
+        }
+
+        function add_marker( $marker, map, count ) {
+            var latlng = new google.maps.LatLng( $marker.attr('data-lat'), $marker.attr('data-lng') );
+            
+            var marker = new google.maps.Marker({
+                position	: latlng,
+                map			: map,
+                icon : "https://wahawonders.com/image/count/number_"+count+".png"
+            });
+            
+            map.markers.push( marker );
+            
+            if( $marker.html() )
+            {
+                var infowindow = new google.maps.InfoWindow({
+                    content		: $marker.html()
+                });
+                
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.open( map, marker );
+                });
+            }
+        }
+
+        function center_map( map ) {
+            
+            var bounds = new google.maps.LatLngBounds();
+            
+            $.each( map.markers, function( i, marker ){
+                var latlng = new google.maps.LatLng( marker.position.lat(), marker.position.lng() );
+                bounds.extend( latlng );
+            });
+            
+            if( map.markers.length == 1 ) {
+                map.setCenter( bounds.getCenter() );
+                map.setZoom( 16 );
+            }
+            else {
+                map.fitBounds( bounds );
+            }
+
+        }
+        
+        var map = null;
+
+        $(document).ready(function(){
+           jQuery("#trigger_popup_fricc").click(function(){
+              if (!$(this).attr('data-clicked')) { 
+                    $('.acf-map').each(function(){
+        
+                        // create map
+                        map = new_map( $(this) );
+        
+                    });
+                    $(this).attr('data-clicked', true);
+                } 
+               jQuery('.modal').show();
+            });
+           jQuery('.popupCloseButton').click(function(){
+              jQuery('.modal').hide();
+           });
+
+        });
+
+    })(jQuery);
+</script>
+</div></p>
+        </div>
+
+    </div>
+
+    <div id="tour-information">
+        <div class="grid-container grid-remove-outer-padding">
+
+            <span class="title">Destinations:</span>
+            All Emirates of United Arab Emirates            <br />
+            <span class="title">Starts in/Finishes in:</span> Dubai/Dubai<br />
+            <span class="title">Highlights:</span> <br />
+
+            <p>
+            <ul>
+            <li>Experience the breathtaking views from the top of Burj Khalifa and enjoy a magical water fountain show.</li>
+            <li>Relax with a private yacht cruise along Dubai's stunning coastline.</li>
+            <li>Indulge in a romantic desert safari with dune bashing, camel rides, and a luxury dinner under the stars.</li>
+            <li>Enjoy an exclusive photoshoot in a convertible car at iconic Dubai locations, followed by a glamorous date night at a top-class restaurant.</li>
+            <li>Explore the futuristic Museum of the Future and Dubai Frame, followed by a relaxing beach getaway.</li>
+            <li>Stay 5 nights in a luxurious 5-star hotel in Dubai and 2 nights in a premium Abu Dhabi resort, with personalized services and world-class amenities.</li>
+            <li>Visit Ferrari World and SeaWorld in Abu Dhabi for thrilling experiences, followed by a visit to the Sheikh Zayed Grand Mosque.</li>
+            <li>Embark on a scenic long desert drive with a professional photoshoot and a luxurious dinner at a top desert restaurant.</li>
+            </ul>
+            </p>
+        </div>
+<!-- Search Bar -->
+<div class="search-container">
+  <input 
+    type="text" 
+    class="search-input" 
+    id="searchInput" 
+    placeholder="Search places..." 
+    onkeyup="filterRows()"
+  >
+</div>
+
+<!-- Top 30 Locations in Abu Dhabi -->
+<!-- Top 30 Locations in Abu Dhabi -->
+<!-- 1. Abu Dhabi Grand Mosque -->
+<section class="row">
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Sheikh Zayed Grand Mosque">
+  </div>
+  <div class="place-description">
+    <h3>Sheikh Zayed Grand Mosque</h3>
+    <p>A masterpiece of Islamic architecture featuring white marble domes and intricate chandeliers.</p>
+  </div>
+</section>
+
+<!-- 2. Louvre Abu Dhabi -->
+<section class="row">
+  <div class="place-description">
+    <h3>Louvre Abu Dhabi</h3>
+    <p>An iconic museum blending art, history, and stunning architecture.</p>
+  </div>
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/2ab.jpeg')">
+    <img src="../../image/AbuDhabi/2ab.jpeg" alt="Louvre Abu Dhabi">
+  </div>
+</section>
+
+<!-- 3. Qasr Al Watan-->
+<section class="row">
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/3ab.jpeg')">
+    <img src="../../image/AbuDhabi/3ab.jpeg" alt="Qasr Al Watan">
+  </div>
+  <div class="place-description">
+    <h3>Qasr Al Watan</h3>
+    <p>A cultural palace showcasing the UAE's legacy and architectural brilliance.</p>
+  </div>
+</section>
+
+<!-- 4. Yas Island Attractions -->
+<section class="row">
+  <div class="place-description">
+    <h3>Yas Island Attractions</h3>
+    <p>From Ferrari World to Yas Waterworld, Yas Island offers fun and excitement for all ages.</p>
+  </div>
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Yas Island">
+  </div>
+</section>
+
+<!-- 5. Qasr Al Watan -->
+<section class="row">
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Qasr Al Watan">
+  </div>
+  <div class="place-description">
+    <h3>Qasr Al Watan</h3>
+    <p>Visit the palace of the nation and witness the beauty of Arabian culture and heritage.</p>
+  </div>
+</section>
+
+<!-- 6. Corniche Beach -->
+<section class="row">
+  <div class="place-description">
+    <h3>Corniche Beach</h3>
+    <p>Relax at the scenic Corniche Beach, a perfect spot for families and beach lovers.</p>
+  </div>
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Corniche Beach">
+  </div>
+</section>
+
+<!-- 7. Saadiyat Island -->
+<section class="row">
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Saadiyat Island">
+  </div>
+  <div class="place-description">
+    <h3>Saadiyat Island</h3>
+    <p>Discover luxury resorts, beautiful beaches, and the cultural district of Saadiyat Island.</p>
+  </div>
+</section>
+
+<!-- 8. Warner Bros. World Abu Dhabi -->
+<section class="row">
+  <div class="place-description">
+    <h3>Warner Bros. World Abu Dhabi</h3>
+    <p>Experience thrilling rides and meet your favorite characters at Warner Bros. World Abu Dhabi.</p>
+  </div>
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Warner Bros. World">
+  </div>
+</section>
+
+<!-- 9. Emirates Palace -->
+<section class="row">
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Emirates Palace">
+  </div>
+  <div class="place-description">
+    <h3>Emirates Palace</h3>
+    <p>Step into luxury and elegance at the iconic Emirates Palace in Abu Dhabi.</p>
+  </div>
+</section>
+
+<!-- 10. Sheikh Zayed Bridge -->
+<section class="row">
+  <div class="place-description">
+    <h3>Sheikh Zayed Bridge</h3>
+    <p>Admire the stunning design and engineering of the Sheikh Zayed Bridge, a modern marvel.</p>
+  </div>
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Sheikh Zayed Bridge">
+  </div>
+</section>
+
+<!-- 11. Heritage Village -->
+<section class="row">
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Heritage Village">
+  </div>
+  <div class="place-description">
+    <h3>Heritage Village</h3>
+    <p>Step back in time and explore traditional Emirati life at Heritage Village.</p>
+  </div>
+</section>
+
+<!-- 12. Mangrove Kayaking -->
+<section class="row">
+  <div class="place-description">
+    <h3>Mangrove Kayaking</h3>
+    <p>Paddle through the serene mangroves and enjoy the natural beauty of Abu Dhabi.</p>
+  </div>
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Mangrove Kayaking">
+  </div>
+</section>
+
+<!-- 13. Al Ain Oasis -->
+<section class="row">
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Al Ain Oasis">
+  </div>
+  <div class="place-description">
+    <h3>Al Ain Oasis</h3>
+    <p>Wander through a historic oasis featuring thousands of date palm trees and ancient falaj irrigation systems.</p>
+  </div>
+</section>
+
+<!-- 14. Al Ain Zoo -->
+<section class="row">
+  <div class="place-description">
+    <h3>Al Ain Zoo</h3>
+    <p>Visit Al Ain Zoo for a family-friendly adventure with wildlife from around the world.</p>
+  </div>
+  <div class="circle-image" onclick="openModal('../../image/AbuDhabi/iStock-169994685.jpg')">
+    <img src="../../image/AbuDhabi/iStock-169994685.jpg" alt="Al Ain Zoo">
+  </div>
+</section>
+
+
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg" alt="Enlarged Image">
+</div>
+
+                   
+        
+<div class="booking-form-footer">
+	<div class="grid-container">
+	
+		<div class="grid-50">
+			<div class="content-left-suport">
+				<h2> REQUEST A FREE QUOTE</h2>
+			<P>
+				It's easier than ever to get going! Request a quote day!
+			</P>
+			<p>
+				One of our Travel Experts will reach out to you and assist you with an itinerary and quote. Also, feel free to leave your phone number and we will give you a quick call just to say hello and clarify any questions web have about our inquiry.
+			
+			</p>
+			</div>
+			
+		</div>
+		<div class="grid-50">
+		<div class="row" style="justify-content: center;">
+							<iframe width="840px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=0lAQxtGJa0-JzBKZTLAlvIuaIeBNDRFLnU3jLzScF7dURUpVRks4WVozN0I5UjEyNkZaVVgzT082RC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+						</div>
+</div>
+</div>
+
+
+
+    <!--Footer-->
+
+    <div class="site-footer">
+        <div class="background-overlay"></div>
+            <div class="newsletter-box">
+                <div class="grid-container">
+            
+                    <p class="sub-head">Extreme Travel Experience.</p>
+        <h2>Coming Soon ! - Cross Country Drive</h2>
+                </div>
+            </div>
+        </div>
+    
+    <div id="footer-widgets" class="site footer-widgets">
+        <div class="footer-widgets-container grid-container grid-parent">
+            <div class="inside-footer-widgets">
+                    <div class="footer-widget-1 grid-parent grid-25 tablet-grid-50 mobile-grid-100">
+    <aside id="nav_menu-2" class="widget inner-padding widget_nav_menu"><h2 class="widget-title">QUICK LINKS</h2><div class="menu-sub-container"><ul id="menu-sub" class="menu"><li id="menu-item-13257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13257"><a href="https://wahawonders.com/about/">About Us</a></li>
+    <li id="menu-item-13258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13258"><a href="https://wahawonders.com/booking-conditions/">Booking Conditions</a></li>
+    <li id="menu-item-13261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13261"><a href="https://wahawonders.com/privacy-policy/">Privacy Policy</a></li>
+    <li id="menu-item-14056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14056"><a href="/faqs/">FAQs</a></li>
+    </ul></div></aside>	</div>
+    <div class="footer-widget-2 grid-parent grid-25 tablet-grid-50 mobile-grid-100">
+    <aside id="nav_menu-3" class="widget inner-padding widget_nav_menu"><h2 class="widget-title">TRAVEL STYLES</h2><div class="menu-travel-style-container"><ul id="menu-travel-style" class="menu"><li id="menu-item-13247" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-13247"><a href="https://wahawonders.com/tour-category/classic-culture/">Classic &#038; Culture</a></li>
+    <li id="menu-item-13245" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-13245"><a href="https://wahawonders.com/tour-category/active-adventure/">LUXURY HONEYMOON</a></li>
+    <li id="menu-item-13246" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-13246"><a href="https://wahawonders.com/tour-category/biking-cycling/">FAMILY PACKAGES</a></li>
+    <li id="menu-item-13252" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-13252"><a href="https://wahawonders.com/tour-category/honeymoon-romance/">PRO ADVENTURE TRAVEL</a></li>
+    <li id="menu-item-13250" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-13250"><a href="https://wahawonders.com/tour-category/family-vacations/">KIDS CELEBRATION</a></li>
+    <li id="menu-item-13248" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-13248"><a href="https://wahawonders.com/tour-category/cruise-holidays/">HOLIDAY GIFT, TO FAMILY</a></li>
+    <li id="menu-item-13253" class="menu-item menu-item-type-taxonomy menu-item-object-tour_category menu-item-13253"><a href="https://wahawonders.com/tour-category/luxury-travel/">LUXURY GETAWAYS, RELAXATION AND WELLNESS</a></li>
+    
+    </ul></div></aside>	</div>
+    <div class="footer-widget-3 grid-parent grid-25 tablet-grid-50 mobile-grid-100">
+    <aside id="nav_menu-4" class="widget inner-padding widget_nav_menu"><h2 class="widget-title">EMIRATES</h2><div class="menu-destinations-container"><ul id="menu-destinations" class="menu">
+    <li id="menu-item-926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926"><a href="https://wahawonders.com/laos/">Abu Dhabi</a></li>
+    <li id="menu-item-927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-927"><a href="https://wahawonders.com/myanmar/">Dubai</a></li>
+    <li id="menu-item-925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925"><a href="https://wahawonders.com/cambodia/">Sharjah</a></li>
+    <li id="menu-item-928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-928"><a href="https://wahawonders.com/thailand/">Ajman</a></li>
+    <li id="menu-item-928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-928"><a href="https://wahawonders.com/thailand/">Fujairah</a></li>
+    <li id="menu-item-928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-928"><a href="https://wahawonders.com/thailand/">Umm Al Quwain</a></li>
+    <li id="menu-item-19335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19335"><a href="https://wahawonders.com/request-a-custom-tour/">Ras Al Khaimah</a></li>
+    </ul></div></aside>	</div>
+    <div class="footer-widget-4 grid-parent grid-25 tablet-grid-50 mobile-grid-100">
+    <aside id="custom_html-2" class="widget_text widget inner-padding widget_custom_html"><h2 class="widget-title">HEAD OFFICE</h2><div class="textwidget custom-html-widget"><i class="footer-icon fa fa-map-marker"></i> Block C VL06-197, Sharjah Research, Technology and Innovation Park, <br />Sharjah, UAE<br />
+    <i class="footer-icon fa fa-phone"></i> +971 58 256 2505<br />
+    <i class="footer-icon fa fa-envelope"></i> aihoang@wahawonders.com
+    
+    </div></aside>	</div>
+                </div>
+        </div>
+    </div>
+                        <footer class="site-info" aria-label="Site"   >
+                <div class="inside-site-info grid-container grid-parent">
+                                    <div class="copyright-bar">
+                        <div class="grid-parent"><div class="grid-50">
+    &copy; Copyright Waha Wonders 2024. All Rights Reserved <span class="divider-mark">/</span> <ul class="box_social_top">
+        <li><a rel="nofollow"  href="https://www.facebook.com/profile.php?id=61557391527505&locale=vi_VN" target="_blank" class="facebook">&nbsp;</a></li>
+        <li><a rel="nofollow"  href="https://www.instagram.com/waha.wonders/?hl=en" target="_blank" class="instagram">&nbsp;</a></li>
+        <li><a rel="nofollow"  href="https://www.youtube.com/channel/UCdyzOui2XosZrbSyT4d7rUQ" target="_blank" class="youtube">&nbsp;</a></li>
+        </ul><span class="divider-mark">/</span>
+    </div>
+    </div>				</div>
+                </div>
+            </div>
+            </footer>
+            </div><!-- .site-footer -->
+        
+
+
+
+<link rel='stylesheet' id='soliloquy-style-css-css' href='../../plugins/soliloquy/assets/css/soliloquy.css' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css' href='../../plugins/gravityforms/css/formreset.min.css?ver=2.4.18' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css' href='../../plugins/gravityforms/css/formreset.min.css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='../../plugins/gravityforms/css/formsmain.min.css?ver=2.4.18' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='../../plugins/gravityforms/css/formsmain.min.css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='../../plugins/gravityforms/css/readyclass.min.css?ver=2.4.18' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='../../plugins/gravityforms/css/readyclass.min.css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='../../plugins/gravityforms/css/browsers.min.css?ver=2.4.18' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='../../plugins/gravityforms/css/browsers.min.css' media='all' />
+<script id="generate-offside-js-extra">
+var offSide = {"side":"left"};
+</script>
+<script src="../../plugins/gp-premium/menu-plus/functions/js/offside.min.js?ver=2.4.1" id="generate-offside-js"></script>
+<script src="../../plugins/gp-premium/menu-plus/functions/js/offside.min.js" id="generate-offside-js"></script>
+<script id="generate-smooth-scroll-js-extra">
+var gpSmoothScroll = {"elements":[".smooth-scroll","li.smooth-scroll a"],"duration":"800","offset":""};
+</script>
+<script src="../../plugins/gp-premium/general/js/smooth-scroll.min.js?ver=2.4.1" id="generate-smooth-scroll-js"></script>
+<script src="../../plugins/gp-premium/general/js/smooth-scroll.min.js" id="generate-smooth-scroll-js"></script>
+<script id="kk-star-ratings-js-extra">
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/wahawonders.com\/wp-admin\/admin-ajax.php","nonce":"01009b66e6"};
+</script>
+<script src="../../plugins/kk-star-ratings/src/core/public/js/kk-star-ratings.min.js?ver=5.4.8" id="kk-star-ratings-js"></script>
+<script src="../../plugins/kk-star-ratings/src/core/public/js/kk-star-ratings.min.js" id="kk-star-ratings-js"></script>
+<script id="stickThis-js-extra">
+var sticky_anything_engage = {"element":".sticky-plugin-enabled","topspace":"0","minscreenwidth":"0","maxscreenwidth":"999999","zindex":"99","legacymode":"","dynamicmode":"","debugmode":"","pushup":"","adminbar":"1"};
+</script>
+<script src="../../plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=2.1.1" id="stickThis-js"></script>
+<script src="../../plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js" id="stickThis-js"></script>
+<script src="../../plugins/tab-accordion-plugin/assets/script.js" id="tab-accordion-script-js"></script>
+<script id="ez-toc-sticky-js-extra">
+var eztoc_sticky_local = {"close_on_link_click":""};
+</script>
+<script src="../../plugins/easy-table-of-contents/assets/js/ez-toc-sticky.min.js?ver=2.0.66.1-1717639192" id="ez-toc-sticky-js"></script>
+<script src="../../plugins/easy-table-of-contents/assets/js/ez-toc-sticky.min.js" id="ez-toc-sticky-js"></script>
+<!--[if lte IE 11]>
+<script src="https://wahawonders.com/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.4.0" id="generate-classlist-js"></script>
+<![endif]-->
+<script id="generate-menu-js-extra">
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+</script>
+<script src="../../themes/generatepress/assets/js/menu.min.js?ver=3.4.0" id="generate-menu-js"></script>
+<script src="../../themes/generatepress/assets/js/menu.min.js" id="generate-menu-js"></script>
+<script id="generate-back-to-top-js-extra">
+var generatepressBackToTop = {"smooth":"1"};
+</script>
+<script src="../../themes/generatepress/assets/js/back-to-top.min.js?ver=3.4.0" id="generate-back-to-top-js"></script>
+<script src="../../themes/generatepress/assets/js/back-to-top.min.js" id="generate-back-to-top-js"></script>
+<script id="soliloquy-script-js-extra">
+var soliloquy_ajax = {"ajax":"https:\/\/wahawonders.com\/wp-admin\/admin-ajax.php","ajax_nonce":"db9cf022e1"};
+</script>
+<script src="../../plugins/soliloquy/assets/js/min/soliloquy-min.js" id="soliloquy-script-js"></script>
+<script src="../../plugins/gravityforms/js/jquery.json.min.js" id="gform_json-js"></script>
+<script id="gform_gravityforms-js-extra">
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/wahawonders.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/wahawonders.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/wahawonders.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/wahawonders.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+</script>
+<script src="../../plugins/gravityforms/js/gravityforms.min.js" id="gform_gravityforms-js"></script>
+<script src="../../plugins/gravityforms/js/placeholders.jquery.min.js" id="gform_placeholder-js"></script>
+<script defer src="../../plugins/akismet/_inc/akismet-frontend.js" id="akismet-frontend-js"></script>
+<link href="../../plugins/facetwp/assets/css/front.css?ver=4.0.1" rel="stylesheet">
+<link href="../../plugins/facetwp/assets/css/front.css" rel="stylesheet">
+<script src="../../plugins/facetwp/assets/js/dist/front.min.js?ver=4.0.1"></script>
+<script src="../../plugins/facetwp/assets/js/dist/front.min.js"></script>
+<script src="../../plugins/facetwp-flyout/assets/js/front.js?ver=0.7"></script>
+<script src="../../plugins/facetwp-flyout/assets/js/front.js"></script>
+<link href="../../plugins/facetwp-flyout/assets/css/front.css" rel="stylesheet">
+<script src="../../plugins/facetwp-submit/facetwp-submit.js?ver=4.0.1"></script>
+<script src="../../plugins/facetwp-submit/facetwp-submit.js"></script>
+<script>
+window.FWP_JSON = {"prefix":"fwp_","no_results_text":"No results found","ajaxurl":"https:\/\/wahawonders.com\/wp-json\/facetwp\/v1\/refresh","nonce":"12b04c5910","preload_data":{"facets":[],"template":"","settings":{"debug":{"query_args":{"post_type":"any","post_status":["publish"],"posts_per_page":10,"post__in":[],"paged":1},"sql":"SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID\n\t\t\t\t\t FROM wp_posts \n\t\t\t\t\t WHERE 1=1  AND wp_posts.post_type IN ('post', 'page', 'attachment', 'tour', 'destination', 'review', 'accomodation', 'promotion', 'offer', 'faq', 'lp', 'testimonial') AND ((wp_posts.post_status = 'publish'))\n\t\t\t\t\t \n\t\t\t\t\t ORDER BY wp_posts.post_date DESC\n\t\t\t\t\t LIMIT 0, 10","facets":[],"template":{"name":"awesome_testimonials_tours","label":"Awesome Testimonials Tours","query":"","template":"<?php\n\/\/ The Query\n$id = get_the_ID();\n$terms = get_the_terms($id, 'tour_category');\n$meta_query = array('relation' => 'OR');\nforeach ($terms as $term) {\n\n$search_value = $term->term_id; \/\/ whatever\n$field_value = sprintf( '^%1$s$|s:%2$u:\"%1$s\";', $search_value, strlen( $search_value ) );\n\n    $meta_query[] = [\n        'key' => 'review_category',\n        'value' => $field_value,\n        'compare' => 'REGEXP'\n    ];\n}\n\n$args_similar_review= array(\n    'post_type' => 'review',\n    'posts_per_page' => 6,\n    'meta_query'    => $meta_query\n);\n\n$query_review = new WP_Query($args_similar_review);\n$slidesPerView = $query_review->post_count > 1 ? 2 : 1;\n?>\n\n\n<link rel=\"stylesheet\" href=\"<? echo get_template_directory_uri();?>_child\/css\/swiper.css\">\n<script src=\"<? echo get_template_directory_uri();?>_child\/js\/swiper.js\"><\/script>\n<div class=\"test-carousel\">\n<div class=\"grid-80\">\n<p class=\"sub-head\">Awesome Testimonials<\/p>\n<h2> <img src=\"http:\/\/wahawonders.com\/wp-content\/uploads\/2018\/08\/small-logo.png\" style=\"margin-right:10px;\"> MEET OUR HAPPY TRAVELERS<\/h2>\n<\/div>\n<div class=\"grid-20\">\n<div id=\"TA_cdsratingsonlynarrow390\" class=\"TA_cdsratingsonlynarrow\">\n\n<\/div>\n<script async src=\"https:\/\/www.jscache.com\/wejs?wtype=cdsratingsonlynarrow&uniq=390&locationId=18270893&lang=en_US&border=true&backgroundColor=white&display_version=2\" data-loadtrk onload=\"this.loadtrk=true\"><\/script>\n<\/div>\n        <div class=\"swiper-container\">\n            <div class=\"swiper-wrapper\">\n                <?php\n                \n\n                if ( $query_review->have_posts() ) {\n                    \/\/ The Loop\n                    while ( $query_review->have_posts() ) {\n                        $query_review->the_post();\n                        $excerpt = get_the_excerpt();\n                        $pid = get_the_ID();\n                        $avatar = get_field('review_avatar');\n                        if ($avatar == '') {\n$avatar = 'http:\/\/Wahawonders.com\/wp-content\/uploads\/2019\/03\/wahawonder-default-bg.jpg';\n}       \n\n\n                        ?>\n\n                        <div class=\"swiper-slide\">\n                            <a href=\"<?php echo get_permalink();?>\">\n                            <div class=\"test-content\"><img class=\"carousel-image\" src=\"<?php echo $avatar;?>\" alt=\"<?php echo $author;?>\">\n<p><?php echo $excerpt;?><\/p>\n                            <h4><?php echo $author = get_field('review_author');?><\/h4><span class=\"author-nationality\"><?php echo get_field('review_nation');?><\/span><\/div>\n                            <\/a>\n                        <\/div>\n\n                        <?php\n                    }}\n                ?>\n            <\/div>\n            <!-- Add Arrows -->\n            <div class=\"swiper-button-next\"><\/div>\n            <div class=\"swiper-button-prev\"><\/div>\n            <!-- Add Pagination -->\n            <div class=\"swiper-pagination\"><\/div>\n        <\/div>\n<\/div>\n<p class=\"testimonials-button\" style=\"text-align:center;margin-top: 20px;\"><a class=\"button red medium radius\" href=\"\/testimonials\/\">READ ALL REVIEWS<\/a><\/p>\n\n  <script>\n    var swiper = new Swiper('.swiper-container', {\n      slidesPerView: 2,\n      spaceBetween: 30,\n\t  breakpoints: {\n\t\t\/\/ when window width is <= 320px\n\t\t320: {\n\t\t  slidesPerView: 1,\n\t\t  spaceBetweenSlides: 10\n\t\t},\n\t\t\/\/ when window width is <= 480px\n\t\t480: {\n\t\t  slidesPerView: 1,\n\t\t  spaceBetweenSlides: 20\n\t\t},\n\t\t\/\/ when window width is <= 640px\n\t\t640: {\n\t\t  slidesPerView: 2,\n\t\t  spaceBetweenSlides: 30\n\t\t}\n\t  },\n      pagination: {\n        el: '.swiper-pagination',\n        clickable: true,\n      },\n      navigation: {\n        nextEl: '.swiper-button-next',\n        prevEl: '.swiper-button-prev',\n      },\n    });\n  <\/script>\n","layout":{"items":[{"type":"row","items":[{"type":"col","items":[],"settings":{"border":{"style":"none","color":"","width":{"unit":"px","top":0,"right":0,"bottom":0,"left":0}},"background_color":"","padding":{"unit":"px","top":0,"right":0,"bottom":0,"left":0},"text_color":"","text_style":{"align":"","bold":false,"italic":false},"font_size":{"unit":"px","size":0},"name":"el-tje37","css_class":""}}],"settings":{"grid_template_columns":"1fr","border":{"style":"none","color":"","width":{"unit":"px","top":0,"right":0,"bottom":0,"left":0}},"background_color":"","padding":{"unit":"px","top":0,"right":0,"bottom":0,"left":0},"text_color":"","text_style":{"align":"","bold":false,"italic":false},"font_size":{"unit":"px","size":0},"name":"el-8k4tih","css_class":""}}],"settings":{"num_columns":1,"grid_gap":10,"custom_css":"","border":{"style":"none","color":"","width":{"unit":"px","top":0,"right":0,"bottom":0,"left":0}},"background_color":"","padding":{"unit":"px","top":0,"right":0,"bottom":0,"left":0},"text_color":"","text_style":{"align":"","bold":false,"italic":false},"font_size":{"unit":"px","size":0},"name":"el-ps358b","css_class":""}},"query_obj":{"post_type":[],"posts_per_page":10,"orderby":[],"filters":[]},"modes":{"display":"advanced","query":"visual"}},"settings":{"thousands_separator":",","decimal_separator":".","prefix":"fwp_","load_jquery":"no","loading_animation":"fade","term_permalink":"slug","debug_mode":"on","gmaps_api_key":"AIzaSyCBwk8LqHMHLq7sLq38aRsxZ-hZ6rk2_-g"},"last_indexed":"2 months","row_counts":{"acc_category":158,"acc_rating":151,"cambodia_destination":142,"country":339,"deal":732,"destination":939,"hotel_destinations":149,"laos_destination":78,"myanmar_destination":101,"new_facet":732,"price_range":20,"review_country":26,"review_date":732,"suitable":236,"thailand_destination":60,"tour_categories":133,"tour_length":86,"travel_style":45,"vietnam_destination":489},"hooks_used":{"pre_get_posts":["wp-content\/plugins\/schema-and-structured-data-for-wp\/modules\/reviews\/reviews_setup.php:232"],"facetwp_query_args":["wp-content\/themes\/generatepress_child\/functions.php:84"],"facetwp_index_row":["wp-content\/themes\/generatepress_child\/functions.php:209","wp-content\/themes\/generatepress_child\/functions.php:355"],"facetwp_facet_orderby":["wp-content\/themes\/generatepress_child\/functions.php:377"]}},"pager":{"page":1,"per_page":10,"total_rows":732,"total_pages":74},"num_choices":[]}}};
+window.FWP_HTTP = {"get":[],"uri":"tour\/vietnam-luxury-honeymoon","url_vars":[]};
+</script>
+            <script type="text/javascript">
+                jQuery('#soliloquy-thumbnails-container-image_tour').css('height', Math.round(jQuery('#soliloquy-thumbnails-container-image_tour').width()/(900/120))).fadeTo(300, 1);if ( typeof soliloquy_slider === 'undefined' || false === soliloquy_slider ) {soliloquy_slider = {};}var soliloquy_width_image_tour = jQuery('#soliloquy-container-image_tour').width() < 900 ? 900 : jQuery('#soliloquy-container-image_tour').width();jQuery('#soliloquy-container-image_tour').css('height', Math.round(soliloquy_width_image_tour/(900/600))).fadeTo(300, 1);jQuery(document).ready(function($){var soliloquy_container_image_tour = $('#soliloquy-container-image_tour'),soliloquy_image_tour = $('#soliloquy-image_tour'),soliloquy_holder_image_tour = $('#soliloquy-image_tour').find('.soliloquy-preload');if ( 0 !== soliloquy_holder_image_tour.length ) {var soliloquy_mobile = soliloquyIsMobile(),soliloquy_src_attr = soliloquy_mobile ? 'data-soliloquy-src-mobile' : 'data-soliloquy-src';soliloquy_holder_image_tour.each(function() {var soliloquy_src = $(this).attr(soliloquy_src_attr);if ( typeof soliloquy_src === 'undefined' || false === soliloquy_src ) {return;}var soliloquy_image = new Image();soliloquy_image.src = soliloquy_src;$(this).attr('src', soliloquy_src).removeAttr(soliloquy_src_attr);});}if ( typeof soliloquy_thumbnails_slider === 'undefined' || false === soliloquy_thumbnails_slider ) {soliloquy_thumbnails_slider = {};}var soliloquy_thumbnails_container_image_tour = $('#soliloquy-thumbnails-container-image_tour'),soliloquy_thumbnails_image_tour = $('#soliloquy-thumbnails-image_tour'),soliloquy_thumbnails_holder_image_tour = $('#soliloquy-thumbnails-image_tour').find('.soliloquy-preload');if ( 0 !== soliloquy_thumbnails_holder_image_tour.length ) {var soliloquy_thumbnails_src_attr = 'data-soliloquy-src';$.each(soliloquy_thumbnails_holder_image_tour, function(i, el){var soliloquy_src = $(this).attr(soliloquy_thumbnails_src_attr);if ( typeof soliloquy_src === 'undefined' || false === soliloquy_src ) {return;}var soliloquy_image = new Image();soliloquy_image.src = soliloquy_src;$(this).attr('src', soliloquy_src).removeAttr(soliloquy_thumbnails_src_attr);});}soliloquy_slider['image_tour'] = soliloquy_image_tour.soliloquy({slideSelector: '.soliloquy-item',speed: 400,pause: 5000,auto: 1,keyboard: 1,useCSS: 1,startSlide: 0,autoHover: 0,autoDelay: 0,adaptiveHeight: 1,adaptiveHeightSpeed: 400,infiniteLoop: 1,mode: 'fade',pager: 0,controls: 1,autoControls: 0,autoControlsCombine: 0,nextText: '',prevText: '',startText: '',stopText: '',onSliderLoad: function(currentIndex){soliloquy_container_image_tour.find('.soliloquy-active-slide').removeClass('soliloquy-active-slide').attr('aria-hidden','true');soliloquy_container_image_tour.css({'height':'auto','background-image':'none'});if ( soliloquy_container_image_tour.find('.soliloquy-slider li').length > 1 ) {soliloquy_container_image_tour.find('.soliloquy-controls').fadeTo(300, 1);} else {soliloquy_container_image_tour.find('.soliloquy-controls').addClass('soliloquy-hide');}soliloquy_image_tour.find('.soliloquy-item:not(.soliloquy-clone):eq(' + currentIndex + ')').addClass('soliloquy-active-slide').attr('aria-hidden','false');$('.soliloquy-clone .soliloquy-video-holder').remove();soliloquy_container_image_tour.find('.soliloquy-controls-direction').attr('aria-label','carousel buttons').attr('aria-controls', 'soliloquy-container-image_tour');soliloquy_container_image_tour.find('.soliloquy-controls-direction a.soliloquy-prev').attr('aria-label','previous');soliloquy_container_image_tour.find('.soliloquy-controls-direction a.soliloquy-next').attr('aria-label','next');$(window).trigger('resize');soliloquy_container_image_tour.parent().attr('data-soliloquy-loaded', 1);},onSlideBefore: function(element, oldIndex, newIndex, oldelm ){soliloquy_container_image_tour.find('.soliloquy-active-slide').removeClass('soliloquy-active-slide').attr('aria-hidden','true');$(element).addClass('soliloquy-active-slide').attr('aria-hidden','false');soliloquy_thumbnails_image_tour.find('.soliloquy-active-slide').removeClass('soliloquy-active-slide');soliloquy_thumbnails_image_tour.find('.soliloquy-item:not(.soliloquy-clone):eq(' + newIndex + ')').addClass('soliloquy-active-slide');if ( soliloquy_thumbnails_slider['image_tour'].getSlideCount() - newIndex >= parseInt(4) ) {soliloquy_thumbnails_slider['image_tour'].goToSlide(newIndex);} else {soliloquy_thumbnails_slider['image_tour'].goToSlide(soliloquy_thumbnails_slider['image_tour'].getSlideCount() - parseInt(4));}},onSlideAfter: function(element, oldIndex, newIndex){}});soliloquy_thumbnails_slider['image_tour'] = soliloquy_thumbnails_image_tour.soliloquy({slideWidth: 220,slideMargin: 20,minSlides: 4,maxSlides: 4,moveSlides: 1,slideSelector: '.soliloquy-item',auto: 0,useCSS: 0,adaptiveHeight: 1,adaptiveHeightSpeed: 400,infiniteLoop:0,hideControlOnEnd: 1,mode: 'vertical',pager: 0,controls: 1,nextText: '',prevText: '',startText: '',stopText: '',onSliderLoad: function(currentIndex){soliloquy_thumbnails_container_image_tour.find('.soliloquy-active-slide').removeClass('soliloquy-active-slide');soliloquy_thumbnails_container_image_tour.css({'height':'auto','background-image':'none'}).find('.soliloquy-controls').fadeTo(300, 1);$('#soliloquy-thumbnails-image_tour .soliloquy-item').eq(soliloquy_slider['image_tour'].getCurrentSlide()).addClass('soliloquy-active-slide');$(document).on('click.SoliloquyThumbnails', '#soliloquy-thumbnails-image_tour .soliloquy-thumbnails-item', function(e){e.preventDefault();var $this = $(this);if ( $this.hasClass('soliloquy-active-slide') ) {return;}soliloquy_slider['image_tour'].goToSlide($this.attr('data-index'));});},onSlideBefore: function(element, oldIndex, newIndex){},onSlideAfter: function(element, oldIndex, newIndex){},});});            </script>
+            
+</body>
+</html>

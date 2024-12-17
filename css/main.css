@@ -66,6 +66,82 @@ html {
 	-ms-text-size-adjust: 100%
 }
 
+/* Tiles Section - Additional Styles */
+/* Place this at the bottom of your existing CSS file to avoid overlap */
+
+.tiles-section {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.tiles-section h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.tiles-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Each tile is a square, and we rely on padding-bottom trick for responsiveness */
+.tile {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 0;
+  padding-bottom: 100%; /* Ensures each tile is a square based on its width */
+}
+
+.tile img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+/* Overlay shown on hover */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* On hover, the overlay smoothly appears */
+.tile:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 article,
 aside,
 details,
@@ -2464,3 +2540,72 @@ body {
     height: 100%;
     object-fit: cover;
   } 
+  .tiles-section {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.tiles-section h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.tiles-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tile {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 0;
+  padding-bottom: 100%; /* This makes the tile a square based on width */
+}
+
+.tile img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.tile:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
